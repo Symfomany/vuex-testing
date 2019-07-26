@@ -13,7 +13,8 @@ describe("My First Test", () => {
       .should("have.keys", ["books", "nb"]);
 
     const store = getStore();
-    console.log(store);
+    console.log(store.its("state"));
+    console.log("ici");
   });
 
   it("Create an user", () => {
