@@ -4,8 +4,9 @@
       <v-btn @click="$emit('increase')" color="primary">Augmenter</v-btn>
       <v-btn @click="$emit('decrease')" color="secondary">Diminuer</v-btn>
       <v-btn @click="$emit('reset')" color="success">Remise à zero</v-btn>
-      <p>
-        Nombre :
+      <h3>Résultats</h3>
+      <p id="resultat">
+        Nombre:
         <span id="nb">{{ nb }}</span>
       </p>
     </v-layout>
