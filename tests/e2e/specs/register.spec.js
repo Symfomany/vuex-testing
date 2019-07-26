@@ -11,6 +11,9 @@ describe("My First Test", () => {
     getStore()
       .its("state")
       .should("have.keys", ["books", "nb"]);
+
+    const store = getStore();
+    console.log(store);
   });
 
   it("Create an user", () => {
