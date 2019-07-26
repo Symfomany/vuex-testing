@@ -41,7 +41,7 @@ describe("Test APIs", () => {
   it("Test IP API", () => {
     cy.request({
       method: "GET",
-      url: "https://api.ipify.org/?format=json"
+      url: "http://ip.jsontest.com/"
     }).as("ip");
 
     cy.get("@ip").should(response => {

@@ -19,9 +19,7 @@
       <v-btn @click="$emit('resetListe')">Reset The liste</v-btn>
       <v-btn @click="$emit('randomListe')">Random The liste</v-btn>
     </template>
-    <template v-else>
-      <p>Aucun book.</p>
-    </template>
+    <template v-else><p>Aucun book.</p></template>
   </div>
 </template>
 
@@ -29,12 +27,7 @@
 export default {
   name: "Liste",
   props: {
-    books: {
-      type: Array,
-      default: function() {
-        return [];
-      }
-    }
+    books: Array
   },
   methods: {}
 };
