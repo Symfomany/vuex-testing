@@ -31,9 +31,15 @@ export default new Vuex.Store({
     },
     randomBooks(state) {
       state.books.sort(() => 0.5 - Math.random());
+    },
+    storeUser(state, user) {
+      state.user = user;
     }
   },
   actions: {
+    storeUser(context, user) {
+      context.commit("storeUser", user);
+    },
     randomListe(context) {
       context.commit("randomBooks");
     },
