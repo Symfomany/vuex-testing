@@ -26,5 +26,13 @@ module.exports = {
   watchPlugins: [
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname'
-  ]
+  ],
+  // reporters: [
+  //   "default",
+  //   ["./node_modules/jest-html-reporter", {
+  //       pageTitle: "Test Report"
+  //   }]
+  // ],
+  // collectCoverage: true,
+  // collectCoverageFrom: ["./src/**/*.{js,vue}", "!**/node_modules/**"]
 }

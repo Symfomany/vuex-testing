@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <Description :age="31"></Description>
+    <Description></Description>
   </div>
 </template>
 

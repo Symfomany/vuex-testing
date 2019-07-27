@@ -1,0 +1,2367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description.vue Find input- type text  1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has array props  1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has array props empty 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has big array empty 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has h3 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has h4 title 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has little array  1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has span invisible 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has span visible 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Has the good render props 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue Trigger click button 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue renders a Bonjour Child 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue renders a vue instance 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Description.vue set Value of message 1`] = `
+<div>
+  <h3>
+    Bonjour Julien
+  </h3>
+   
+  <p>
+    juju
+  </p>
+   
+  <h4
+    id="age"
+  >
+    Votre age est de 20 ans
+  </h4>
+   
+  <button>
+    Reverse Message
+  </button>
+   
+  <div
+    class="container grid-list-xl"
+  >
+    <div
+      class="layout wrap"
+    >
+      <div
+        class="flex xs12 sm6 md3"
+      >
+        <div
+          class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--placeholder"
+        >
+          <div
+            class="v-input__control"
+          >
+            <div
+              class="v-input__slot"
+            >
+              <div
+                class="v-text-field__slot"
+              >
+                <label
+                  class="v-label v-label--active theme--light"
+                  for="txtMessage"
+                  style="right: 0px; position: absolute;"
+                >
+                  Votre Message
+                </label>
+                <input
+                  data-test="zipCodeText"
+                  id="txtMessage"
+                  placeholder="Enter US Zip code"
+                  type="input"
+                />
+              </div>
+            </div>
+            <div
+              class="v-text-field__details"
+            >
+              <div
+                class="v-messages theme--light"
+              >
+                <span
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 success v-sheet theme--dark success"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.success
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a trop de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 error v-sheet theme--dark error"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.error
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        Il y a pas assez de todos!
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="v-alert mb-4 inform v-sheet theme--dark info"
+    id="inform"
+    role="alert"
+    style="display: none;"
+  >
+    <div
+      class="v-alert__wrapper"
+    >
+      <i
+        aria-hidden="true"
+        class="v-icon notranslate v-alert__icon material-icons theme--dark"
+      >
+        $vuetify.icons.info
+      </i>
+      <div
+        class="v-alert__content"
+      >
+        <h2>
+          Hello todos!
+        </h2>
+      </div>
+    </div>
+  </div>
+   
+  <h3>
+    Je suis la description
+  </h3>
+   
+  <span
+    id="see"
+    style="display: none;"
+  >
+    Now you see me
+  </span>
+   
+  <ol>
+    <li>
+      Learn JavaScript
+    </li>
+    <li>
+      Learn Vue
+    </li>
+    <li>
+      Build something awesome
+    </li>
+  </ol>
+</div>
+`;
