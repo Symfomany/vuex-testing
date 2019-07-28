@@ -1,7 +1,7 @@
 <template>
   <div>
     <Bonjour :prenom="message" >
-   <template v-slot:titledefault>
+   <template name="titledefault">
             <h5>Je suis un autre titre </h5>
         </template>
     </Bonjour>

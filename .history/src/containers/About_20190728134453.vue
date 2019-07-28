@@ -2,7 +2,10 @@
   <div class="about">
     <h1>This is an about page</h1>
     <Description @save="essai" :age="31">
-     
+        <template name="titledefault">
+            Je suis un autre titre
+        </template>
+
     </Description>
   </div>
 </template>

@@ -20,7 +20,7 @@
           </v-flex>
 
           <v-flex xs12 sm6 md3>
-            <v-text-field data-test="nom" id="nom" :rules="rules" v-model="user.nom" required label="Nom"></v-text-field>
+            <v-text-field id="nom" :rules="rules" v-model="user.nom" required label="Nom"></v-text-field>
           </v-flex>
 
           <v-flex xs12 sm6 md3>
@@ -60,23 +60,13 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-import { mapGetters, mapActions } from "vuex";
-
-
+import { mapGetters } from "vuex";
+import { mapActions } from "vuex";
 export default {
   name: "formulaire",
 
       mounted(){
-        //  const elt = this.$el.childNodes[0];
-        // console.log(elt.innerHTML);
-        // console.log(elt.textContent);
-        // const form = this.$el.childNodes[1];
-        // console.log(form.children);
-        // console.log(form.className );
-        // console.log(form.attributes);
-        // console.log(form.querySelector("#nom"));
-        // console.log(form.querySelector("#nom").value);
-        // console.log(form.querySelector("#nom").getAttribute("placeholder"));
+        console.log(this.$el.childNodes[1]);
     },
 
 

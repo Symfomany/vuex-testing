@@ -1,10 +1,6 @@
 <template>
   <div>
-    <Bonjour :prenom="message" >
-   <template v-slot:titledefault>
-            <h5>Je suis un autre titre </h5>
-        </template>
-    </Bonjour>
+    <Bonjour :prenom="message"  />
     <p>{{ message }}</p>
     <h4 id="age">Votre age est de {{ age }} ans</h4>
     <button @click="reverseMessage">Reverse Message</button>

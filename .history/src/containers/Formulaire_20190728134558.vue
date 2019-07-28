@@ -20,7 +20,7 @@
           </v-flex>
 
           <v-flex xs12 sm6 md3>
-            <v-text-field data-test="nom" id="nom" :rules="rules" v-model="user.nom" required label="Nom"></v-text-field>
+            <v-text-field id="nom" :rules="rules" v-model="user.nom" required label="Nom"></v-text-field>
           </v-flex>
 
           <v-flex xs12 sm6 md3>
@@ -60,9 +60,8 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-import { mapGetters, mapActions } from "vuex";
-
-
+import { mapGetters } from "vuex";
+import { mapActions } from "vuex";
 export default {
   name: "formulaire",
 

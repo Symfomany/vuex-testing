@@ -1,6 +1,4 @@
 import { createLocalVue, mount, shallowMount } from "@vue/test-utils";
-import { render } from '@vue/server-test-utils'
-
 import Vuetify from "vuetify";
 import Vue from "vue";
 
@@ -26,25 +24,6 @@ describe("Description.vue", () => {
     expect(shallowMount(Description).isVueInstance()).toBe(true);
   });
 
-  it("renders a vue instance", async () => {
-    const wrapper = await render(Bonjour)
-    expect(wrapper.text()).toBe("Je suis le contenu par defaut Bonjour Julien Je suis le composant enfant")
-  });
-
-  it("renders a vue instance with another slot", async () => {
-        const localVue = createLocalVue();
-        let wrapper = mount(Bonjour, {
-          localVue,
-            propsData: {
-              age: 20
-            },
-              slots: {
-                titledefault: "<h5>Je suis un autre titre </h5>"
-              }
-          });
-    expect(wrapper.text()).toBe("Je suis un autre titre  Bonjour Julien Je suis le composant enfant")
-   });
-  
   it("renders a Bonjour Child", () => {
     expect(wrapper.contains(Bonjour)).toBe(true);
   });
@@ -124,7 +103,7 @@ describe("Description.vue", () => {
 
   it("Has the good render props", () => {
     let txt = wrapper.find("h3");
-    expect(txt.text()).toBe("Bonjour juju");
+    expect(txt.text()).toBe("Bonjour Julien");
   });
 
   

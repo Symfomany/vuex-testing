@@ -32,17 +32,18 @@ describe("Description.vue", () => {
   });
 
   it("renders a vue instance with another slot", async () => {
-        const localVue = createLocalVue();
-        let wrapper = mount(Bonjour, {
+    let wrapper = mount(Description, {
           localVue,
-            propsData: {
-              age: 20
-            },
-              slots: {
-                titledefault: "<h5>Je suis un autre titre </h5>"
-              }
-          });
-    expect(wrapper.text()).toBe("Je suis un autre titre  Bonjour Julien Je suis le composant enfant")
+          slots: {
+            header: "<h5>Je suis un autre titre </h5>"
+          },
+          propsData: {
+            age: 20
+          }
+       });
+    
+    const wrapper = await render(Bonjour)
+    expect(wrapper.text()).toBe("Je suis le contenu par defaut Bonjour Julien Je suis le composant enfant")
    });
   
   it("renders a Bonjour Child", () => {
