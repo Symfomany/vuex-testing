@@ -62,4 +62,9 @@ describe("Formulaire.vue", () => {
       expect(wrapper.contains('[data-test="nom"]')).toBe(true)
   });
 
+  //   it("set User nom error ", () => {
+  //        wrapper.setData({ user: {nom: 'Ju'} });
+  //       expect(wrapper.contains('Name must be more than 2 characters')).toBe(true)
+  // });
+
 });

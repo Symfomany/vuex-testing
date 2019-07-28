@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+<Nb />
+
     <h1>Welcome Julien</h1>
     <HelloWorld
       @decrease="decrease"
@@ -20,6 +22,8 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import Nb from "@/components/Nb.vue";
+
 import Liste from "@/components/Liste.vue";
 
 import { mapGetters } from "vuex";
@@ -29,7 +33,8 @@ export default {
   name: "home",
   components: {
     HelloWorld,
-    Liste
+    Liste,
+    Nb
   },
   methods: {
     ...mapActions([

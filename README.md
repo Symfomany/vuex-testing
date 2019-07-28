@@ -1,5 +1,7 @@
 # POC Project
 
+# Vue testing handbook
+https://lmiller1990.github.io/vue-testing-handbook/vuex-in-components.html#testing-vuex-in-components
 
 # Common Tips of Vue Test Utils
 

@@ -9,6 +9,9 @@ export default new Vuex.Store({
     books: []
   },
   getters: {
+    getPos(state){
+      return state.nb >= 0
+    },
     getNb(state) {
       return state.nb;
     },
