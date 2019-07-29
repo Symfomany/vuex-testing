@@ -16,9 +16,6 @@ describe("Nb", () => {
       localVue ,
         mocks: {
           $store: {
-               getters: {
-              getPos: true
-            },
             state: { nb: 2 }
           }
        }
@@ -29,20 +26,19 @@ describe("Nb", () => {
 })
 
 
-describe("Nb", () => {
-  it("renders a nb  mocks store global", () => {
-    const wrapper = shallowMount(Nb, { 
-      localVue ,
-        mocks: {
-          $store: {
-            getters: {
-              getPos: true
-            },
-            state: { nb: -2 },
-          }
-       }
-    })
-      expect(wrapper.find(".nb").text()).toBe("-2")
-    // expect(wrapper.find("#btn").attributes().disabled).toBe(true)
-  })
-})
+// describe("Nb", () => {
+//   it("renders a nb  mocks store global", () => {
+//     const wrapper = shallowMount(Nb, { 
+//       localVue ,
+//         mocks: {
+//           $store: {
+//             getters: {
+//               getPos: false
+//             }
+//           }
+//        }
+//     })
+//     console.log(wrapper.find("#btn").attributes().disabled);
+//     expect(wrapper.find("#btn").attributes().disabled).toBe(true)
+//   })
+// })

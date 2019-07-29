@@ -44,9 +44,6 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    testAction(context, msg) {
-      context.commit("testMutation", msg);
-    },
     storeUser(context, user) {
       context.commit("storeUser", user);
     },

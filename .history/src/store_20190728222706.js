@@ -6,8 +6,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     nb: 8,
-    books: [],
-    message: ""
+    books: []
   },
   getters: {
     getPos(state){
@@ -21,9 +20,6 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    testMutation(state,message) {
-      state.message = message
-    },
     increase(state) {
       state.nb++;
     },
@@ -44,9 +40,6 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    testAction(context, msg) {
-      context.commit("testMutation", msg);
-    },
     storeUser(context, user) {
       context.commit("storeUser", user);
     },

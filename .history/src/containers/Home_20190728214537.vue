@@ -1,8 +1,6 @@
 <template>
   <div class="home">
-    <ComponentWithButtons />
-    <Send />
-    <Nb />
+<Nb />
 
     <h1>Welcome Julien</h1>
     <HelloWorld
@@ -25,9 +23,6 @@
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import Nb from "@/components/Nb.vue";
-import ComponentWithButtons from "@/components/ComponentWithButtons.vue";
-import Send from "@/components/Send.vue";
-
 
 import Liste from "@/components/Liste.vue";
 
@@ -38,9 +33,7 @@ export default {
   name: "home",
   components: {
     HelloWorld,
-    Send,
     Liste,
-    ComponentWithButtons,
     Nb
   },
   methods: {

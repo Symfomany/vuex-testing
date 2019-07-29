@@ -17,7 +17,7 @@ describe("test user ", () => {
          nom:  "Boyer",
     }
     store.commit("storeUser", user)
-    expect(store.state).toEqual(  {"books": [],  "message": "", "nb": 8, "user": {"nom": "Boyer"}})
+    expect(store.state).toEqual(  {"books": [], "nb": 8, "user": {"nom": "Boyer"}})
   })
 
   

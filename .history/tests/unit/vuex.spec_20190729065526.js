@@ -42,7 +42,8 @@ describe("Nb", () => {
           }
        }
     })
-      expect(wrapper.find(".nb").text()).toBe("-2")
+        expect(wrapper.find(".nb").text()).toBe("-2")
+    // console.log(wrapper.find("#btn").attributes().disabled);
     // expect(wrapper.find("#btn").attributes().disabled).toBe(true)
   })
 })

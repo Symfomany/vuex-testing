@@ -2,7 +2,7 @@
   <div class="home">
     <ComponentWithButtons />
     <Send />
-    <Nb />
+<Nb />
 
     <h1>Welcome Julien</h1>
     <HelloWorld

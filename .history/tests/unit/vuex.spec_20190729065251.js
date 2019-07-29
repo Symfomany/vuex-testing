@@ -36,13 +36,12 @@ describe("Nb", () => {
         mocks: {
           $store: {
             getters: {
-              getPos: true
-            },
-            state: { nb: -2 },
+              getPos: false
+            }
           }
        }
     })
-      expect(wrapper.find(".nb").text()).toBe("-2")
-    // expect(wrapper.find("#btn").attributes().disabled).toBe(true)
+    console.log(wrapper.find("#btn").attributes().disabled);
+    expect(wrapper.find("#btn").attributes().disabled).toBe(true)
   })
 })
