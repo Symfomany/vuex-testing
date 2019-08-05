@@ -1,0 +1,2136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Formulaire.vue Find input- type text  1`] = `
+<div
+  class="form"
+>
+  <h1>
+    Register
+  </h1>
+   
+  <v-form-stub
+    value="true"
+  >
+    <v-container-stub
+      grid-list-xl=""
+      tag="div"
+    >
+      <v-layout-stub
+        tag="div"
+        wrap=""
+      >
+        <v-flex-stub
+          tag="div"
+          xs12=""
+        >
+          <v-radio-group-stub
+            activeclass="v-item--active"
+            backgroundcolor=""
+            column="true"
+            errorcount="1"
+            errormessages=""
+            height="auto"
+            messages=""
+            rules=""
+            successmessages=""
+            value="homme"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          >
+            <v-radio-stub
+              class="sexe"
+              label="Homme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="homme"
+            />
+             
+            <v-radio-stub
+              class="sexe"
+              label="Femme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="Femme"
+            />
+          </v-radio-group-stub>
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Cheval"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Boxe"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Tennis"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Basket"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Football"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            data-test="nom"
+            errorcount="1"
+            errormessages=""
+            id="nom"
+            label="Nom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="prenom"
+            label="Prénom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md6=""
+          sm12=""
+          tag="div"
+          xs12=""
+        >
+          <v-textarea-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="biographie"
+            label="Biographie"
+            loaderheight="2"
+            messages=""
+            required=""
+            rowheight="24"
+            rows="5"
+            rules=""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-select-stub
+            appendicon="$vuetify.icons.dropdown"
+            backgroundcolor=""
+            class="loisirs"
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            itemcolor="primary"
+            itemdisabled="disabled"
+            items="Le violon,Le cinéma,La lecture,le théâtre"
+            itemtext="text"
+            itemvalue="value"
+            label="Loisirs"
+            loaderheight="2"
+            menuprops="[object Object]"
+            messages=""
+            nodatatext="$vuetify.noDataText"
+            required=""
+            rules="function (v) { return !!v || 'Loisir est obligatoire'; }"
+            successmessages=""
+            type="text"
+            value="Le violon"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+      </v-layout-stub>
+    </v-container-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      class="mr-4"
+      color="success"
+      id="submission"
+      tag="button"
+      type="button"
+    >
+      Enregistrer
+    </v-btn-stub>
+  </v-form-stub>
+   
+  <helloworld-stub
+    nb="8"
+  />
+</div>
+`;
+
+exports[`Formulaire.vue Has h1 title 1`] = `
+<div
+  class="form"
+>
+  <h1>
+    Register
+  </h1>
+   
+  <v-form-stub
+    value="true"
+  >
+    <v-container-stub
+      grid-list-xl=""
+      tag="div"
+    >
+      <v-layout-stub
+        tag="div"
+        wrap=""
+      >
+        <v-flex-stub
+          tag="div"
+          xs12=""
+        >
+          <v-radio-group-stub
+            activeclass="v-item--active"
+            backgroundcolor=""
+            column="true"
+            errorcount="1"
+            errormessages=""
+            height="auto"
+            messages=""
+            rules=""
+            successmessages=""
+            value="homme"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          >
+            <v-radio-stub
+              class="sexe"
+              label="Homme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="homme"
+            />
+             
+            <v-radio-stub
+              class="sexe"
+              label="Femme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="Femme"
+            />
+          </v-radio-group-stub>
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Cheval"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Boxe"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Tennis"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Basket"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Football"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            data-test="nom"
+            errorcount="1"
+            errormessages=""
+            id="nom"
+            label="Nom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="prenom"
+            label="Prénom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md6=""
+          sm12=""
+          tag="div"
+          xs12=""
+        >
+          <v-textarea-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="biographie"
+            label="Biographie"
+            loaderheight="2"
+            messages=""
+            required=""
+            rowheight="24"
+            rows="5"
+            rules=""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-select-stub
+            appendicon="$vuetify.icons.dropdown"
+            backgroundcolor=""
+            class="loisirs"
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            itemcolor="primary"
+            itemdisabled="disabled"
+            items="Le violon,Le cinéma,La lecture,le théâtre"
+            itemtext="text"
+            itemvalue="value"
+            label="Loisirs"
+            loaderheight="2"
+            menuprops="[object Object]"
+            messages=""
+            nodatatext="$vuetify.noDataText"
+            required=""
+            rules="function (v) { return !!v || 'Loisir est obligatoire'; }"
+            successmessages=""
+            type="text"
+            value="Le violon"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+      </v-layout-stub>
+    </v-container-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      class="mr-4"
+      color="success"
+      id="submission"
+      tag="button"
+      type="button"
+    >
+      Enregistrer
+    </v-btn-stub>
+  </v-form-stub>
+   
+  <helloworld-stub
+    nb="8"
+  />
+</div>
+`;
+
+exports[`Formulaire.vue renders a Bonjour Child 1`] = `
+<div
+  class="form"
+>
+  <h1>
+    Register
+  </h1>
+   
+  <v-form-stub
+    value="true"
+  >
+    <v-container-stub
+      grid-list-xl=""
+      tag="div"
+    >
+      <v-layout-stub
+        tag="div"
+        wrap=""
+      >
+        <v-flex-stub
+          tag="div"
+          xs12=""
+        >
+          <v-radio-group-stub
+            activeclass="v-item--active"
+            backgroundcolor=""
+            column="true"
+            errorcount="1"
+            errormessages=""
+            height="auto"
+            messages=""
+            rules=""
+            successmessages=""
+            value="homme"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          >
+            <v-radio-stub
+              class="sexe"
+              label="Homme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="homme"
+            />
+             
+            <v-radio-stub
+              class="sexe"
+              label="Femme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="Femme"
+            />
+          </v-radio-group-stub>
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Cheval"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Boxe"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Tennis"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Basket"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Football"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            data-test="nom"
+            errorcount="1"
+            errormessages=""
+            id="nom"
+            label="Nom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="prenom"
+            label="Prénom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md6=""
+          sm12=""
+          tag="div"
+          xs12=""
+        >
+          <v-textarea-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="biographie"
+            label="Biographie"
+            loaderheight="2"
+            messages=""
+            required=""
+            rowheight="24"
+            rows="5"
+            rules=""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-select-stub
+            appendicon="$vuetify.icons.dropdown"
+            backgroundcolor=""
+            class="loisirs"
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            itemcolor="primary"
+            itemdisabled="disabled"
+            items="Le violon,Le cinéma,La lecture,le théâtre"
+            itemtext="text"
+            itemvalue="value"
+            label="Loisirs"
+            loaderheight="2"
+            menuprops="[object Object]"
+            messages=""
+            nodatatext="$vuetify.noDataText"
+            required=""
+            rules="function (v) { return !!v || 'Loisir est obligatoire'; }"
+            successmessages=""
+            type="text"
+            value="Le violon"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+      </v-layout-stub>
+    </v-container-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      class="mr-4"
+      color="success"
+      id="submission"
+      tag="button"
+      type="button"
+    >
+      Enregistrer
+    </v-btn-stub>
+  </v-form-stub>
+   
+  <helloworld-stub
+    nb="8"
+  />
+</div>
+`;
+
+exports[`Formulaire.vue renders a vue instance 1`] = `
+<div
+  class="form"
+>
+  <h1>
+    Register
+  </h1>
+   
+  <v-form-stub
+    value="true"
+  >
+    <v-container-stub
+      grid-list-xl=""
+      tag="div"
+    >
+      <v-layout-stub
+        tag="div"
+        wrap=""
+      >
+        <v-flex-stub
+          tag="div"
+          xs12=""
+        >
+          <v-radio-group-stub
+            activeclass="v-item--active"
+            backgroundcolor=""
+            column="true"
+            errorcount="1"
+            errormessages=""
+            height="auto"
+            messages=""
+            rules=""
+            successmessages=""
+            value="homme"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          >
+            <v-radio-stub
+              class="sexe"
+              label="Homme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="homme"
+            />
+             
+            <v-radio-stub
+              class="sexe"
+              label="Femme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="Femme"
+            />
+          </v-radio-group-stub>
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Cheval"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Boxe"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Tennis"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Basket"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Football"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            data-test="nom"
+            errorcount="1"
+            errormessages=""
+            id="nom"
+            label="Nom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="prenom"
+            label="Prénom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md6=""
+          sm12=""
+          tag="div"
+          xs12=""
+        >
+          <v-textarea-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="biographie"
+            label="Biographie"
+            loaderheight="2"
+            messages=""
+            required=""
+            rowheight="24"
+            rows="5"
+            rules=""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-select-stub
+            appendicon="$vuetify.icons.dropdown"
+            backgroundcolor=""
+            class="loisirs"
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            itemcolor="primary"
+            itemdisabled="disabled"
+            items="Le violon,Le cinéma,La lecture,le théâtre"
+            itemtext="text"
+            itemvalue="value"
+            label="Loisirs"
+            loaderheight="2"
+            menuprops="[object Object]"
+            messages=""
+            nodatatext="$vuetify.noDataText"
+            required=""
+            rules="function (v) { return !!v || 'Loisir est obligatoire'; }"
+            successmessages=""
+            type="text"
+            value="Le violon"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+      </v-layout-stub>
+    </v-container-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      class="mr-4"
+      color="success"
+      id="submission"
+      tag="button"
+      type="button"
+    >
+      Enregistrer
+    </v-btn-stub>
+  </v-form-stub>
+   
+  <helloworld-stub
+    nb="8"
+  />
+</div>
+`;
+
+exports[`Formulaire.vue set Formulaire at false 1`] = `
+<div
+  class="form"
+>
+  <h1>
+    Register
+  </h1>
+   
+  <v-form-stub
+    value="true"
+  >
+    <v-container-stub
+      grid-list-xl=""
+      tag="div"
+    >
+      <v-layout-stub
+        tag="div"
+        wrap=""
+      >
+        <v-flex-stub
+          tag="div"
+          xs12=""
+        >
+          <v-radio-group-stub
+            activeclass="v-item--active"
+            backgroundcolor=""
+            column="true"
+            errorcount="1"
+            errormessages=""
+            height="auto"
+            messages=""
+            rules=""
+            successmessages=""
+            value="homme"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          >
+            <v-radio-stub
+              class="sexe"
+              label="Homme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="homme"
+            />
+             
+            <v-radio-stub
+              class="sexe"
+              label="Femme"
+              officon="$vuetify.icons.radioOff"
+              onicon="$vuetify.icons.radioOn"
+              ripple="true"
+              value="Femme"
+            />
+          </v-radio-group-stub>
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Cheval"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Boxe"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Tennis"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Basket"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+           
+          <v-checkbox-stub
+            backgroundcolor=""
+            class="loisir"
+            errorcount="1"
+            errormessages=""
+            indeterminateicon="$vuetify.icons.checkboxIndeterminate"
+            label="Football"
+            messages=""
+            officon="$vuetify.icons.checkboxOff"
+            onicon="$vuetify.icons.checkboxOn"
+            ripple="true"
+            rules=""
+            successmessages=""
+            value=""
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            data-test="nom"
+            errorcount="1"
+            errormessages=""
+            id="nom"
+            label="Nom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md3=""
+          sm6=""
+          tag="div"
+          xs12=""
+        >
+          <v-text-field-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="prenom"
+            label="Prénom"
+            loaderheight="2"
+            messages=""
+            required=""
+            rules="v => !!v || \\"Field is required\\",v => v.length > 2 || \\"Name must be more than 2 characters\\""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          md6=""
+          sm12=""
+          tag="div"
+          xs12=""
+        >
+          <v-textarea-stub
+            backgroundcolor=""
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            id="biographie"
+            label="Biographie"
+            loaderheight="2"
+            messages=""
+            required=""
+            rowheight="24"
+            rows="5"
+            rules=""
+            successmessages=""
+            type="text"
+            value=""
+          />
+        </v-flex-stub>
+         
+        <v-flex-stub
+          tag="div"
+        >
+          <v-select-stub
+            appendicon="$vuetify.icons.dropdown"
+            backgroundcolor=""
+            class="loisirs"
+            clearicon="$vuetify.icons.clear"
+            errorcount="1"
+            errormessages=""
+            itemcolor="primary"
+            itemdisabled="disabled"
+            items="Le violon,Le cinéma,La lecture,le théâtre"
+            itemtext="text"
+            itemvalue="value"
+            label="Loisirs"
+            loaderheight="2"
+            menuprops="[object Object]"
+            messages=""
+            nodatatext="$vuetify.noDataText"
+            required=""
+            rules="function (v) { return !!v || 'Loisir est obligatoire'; }"
+            successmessages=""
+            type="text"
+            value="Le violon"
+            valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date && b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+          />
+        </v-flex-stub>
+      </v-layout-stub>
+    </v-container-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      class="mr-4"
+      color="success"
+      id="submission"
+      tag="button"
+      type="button"
+    >
+      Enregistrer
+    </v-btn-stub>
+  </v-form-stub>
+   
+  <helloworld-stub
+    nb="8"
+  />
+</div>
+`;

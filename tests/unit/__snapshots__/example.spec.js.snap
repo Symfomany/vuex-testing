@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue Has p 1`] = `
+<v-container-stub
+  tag="div"
+>
+  <v-layout-stub
+    tag="div"
+    wrap=""
+  >
+    <v-btn-stub
+      activeclass=""
+      color="primary"
+      tag="button"
+      type="button"
+    >
+      Augmenter
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="secondary"
+      tag="button"
+      type="button"
+    >
+      Diminuer
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="success"
+      tag="button"
+      type="button"
+    >
+      Remise à zero
+    </v-btn-stub>
+     
+    <h3>
+      Résultats
+    </h3>
+     
+    <p
+      id="resultat"
+    >
+      
+      Nombre:
+      
+      <span
+        id="nb"
+      >
+        5
+      </span>
+    </p>
+  </v-layout-stub>
+</v-container-stub>
+`;
+
+exports[`HelloWorld.vue Has the good render props 1`] = `
+<v-container-stub
+  tag="div"
+>
+  <v-layout-stub
+    tag="div"
+    wrap=""
+  >
+    <v-btn-stub
+      activeclass=""
+      color="primary"
+      tag="button"
+      type="button"
+    >
+      Augmenter
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="secondary"
+      tag="button"
+      type="button"
+    >
+      Diminuer
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="success"
+      tag="button"
+      type="button"
+    >
+      Remise à zero
+    </v-btn-stub>
+     
+    <h3>
+      Résultats
+    </h3>
+     
+    <p
+      id="resultat"
+    >
+      
+      Nombre:
+      
+      <span
+        id="nb"
+      >
+        5
+      </span>
+    </p>
+  </v-layout-stub>
+</v-container-stub>
+`;
+
+exports[`HelloWorld.vue renders a v-layout 1`] = `
+<v-container-stub
+  tag="div"
+>
+  <v-layout-stub
+    tag="div"
+    wrap=""
+  >
+    <v-btn-stub
+      activeclass=""
+      color="primary"
+      tag="button"
+      type="button"
+    >
+      Augmenter
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="secondary"
+      tag="button"
+      type="button"
+    >
+      Diminuer
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="success"
+      tag="button"
+      type="button"
+    >
+      Remise à zero
+    </v-btn-stub>
+     
+    <h3>
+      Résultats
+    </h3>
+     
+    <p
+      id="resultat"
+    >
+      
+      Nombre:
+      
+      <span
+        id="nb"
+      >
+        5
+      </span>
+    </p>
+  </v-layout-stub>
+</v-container-stub>
+`;
+
+exports[`HelloWorld.vue renders a vue instance 1`] = `
+<v-container-stub
+  tag="div"
+>
+  <v-layout-stub
+    tag="div"
+    wrap=""
+  >
+    <v-btn-stub
+      activeclass=""
+      color="primary"
+      tag="button"
+      type="button"
+    >
+      Augmenter
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="secondary"
+      tag="button"
+      type="button"
+    >
+      Diminuer
+    </v-btn-stub>
+     
+    <v-btn-stub
+      activeclass=""
+      color="success"
+      tag="button"
+      type="button"
+    >
+      Remise à zero
+    </v-btn-stub>
+     
+    <h3>
+      Résultats
+    </h3>
+     
+    <p
+      id="resultat"
+    >
+      
+      Nombre:
+      
+      <span
+        id="nb"
+      >
+        5
+      </span>
+    </p>
+  </v-layout-stub>
+</v-container-stub>
+`;

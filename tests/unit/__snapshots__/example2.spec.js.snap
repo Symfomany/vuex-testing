@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Liste.vue One books 1`] = `
+<div
+  class="hello"
+>
+  <h3>
+    Les bouquins
+  </h3>
+   
+  <v-layout-stub
+    row=""
+    tag="div"
+  >
+    <v-flex-stub
+      offset-sm3=""
+      sm6=""
+      tag="div"
+      xs12=""
+    >
+      <v-card-stub
+        class="mx-auto"
+        loaderheight="4"
+        maxwidth="400"
+        tag="div"
+      >
+        <v-list-stub
+          id="books"
+          tag="div"
+          tile="true"
+        >
+          <v-list-item-stub
+            activeclass=""
+            tag="div"
+          >
+            <v-list-item-content-stub>
+              <v-list-item-title-stub />
+            </v-list-item-content-stub>
+          </v-list-item-stub>
+        </v-list-stub>
+      </v-card-stub>
+    </v-flex-stub>
+  </v-layout-stub>
+   
+  <v-btn-stub
+    activeclass=""
+    tag="button"
+    type="button"
+  >
+    Reload The liste
+  </v-btn-stub>
+   
+  <v-btn-stub
+    activeclass=""
+    tag="button"
+    type="button"
+  >
+    Reset The liste
+  </v-btn-stub>
+   
+  <v-btn-stub
+    activeclass=""
+    tag="button"
+    type="button"
+  >
+    Random The liste
+  </v-btn-stub>
+</div>
+`;
