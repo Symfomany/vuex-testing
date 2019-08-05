@@ -1,6 +1,8 @@
 <template>
   <div>
-    <p style="color: yellow">Je suis le composant enfant</p>
+    <p>Okjqsbdis</p>
+    <p style="color: green">Je suis le composant enfant</p>
+    <h3>Je la refaos</h3>
   </div>
 </template>
 
