@@ -2,7 +2,7 @@
   <div>
     <header>
       <slot name="titledefault">
-        <h6>Je suis le contenu par defaut :)</h6>
+        <h6>Je suis le contenu par defaut ;)</h6>
       </slot>
     </header>
     <h3>Bonjour {{ prenom }}</h3>

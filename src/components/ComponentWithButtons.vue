@@ -1,18 +1,8 @@
 <template>
   <div>
-    <button 
-      class="commit" 
-      @click="handleCommit">
-      Commit
-    </button>
+    <button class="commit" @click="handleCommit">Commit ceci</button>
 
-    <button 
-      class="dispatch" 
-      @click="handleDispatch">
-      Dispatch
-    </button>
-
-  
+    <button class="dispatch" @click="handleDispatch">Dispatch cela</button>
   </div>
 </template>
 
@@ -22,13 +12,12 @@ export default {
 
   methods: {
     handleCommit() {
-      this.$store.commit("testMutation", { msg: "Test Commit" })
+      this.$store.commit("testMutation", { msg: "Test Commit" });
     },
 
     handleDispatch() {
-      this.$store.dispatch("testAction", { msg: "Test Dispatch" })
-    },
-
+      this.$store.dispatch("testAction", { msg: "Test Dispatch" });
+    }
   }
-}
+};
 </script>
