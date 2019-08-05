@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <template v-if="books.length > 0">
-      <h3>Les bouquins</h3>
+      <h3>Les bouquins de l'archiduchesse</h3>
       <v-layout row>
         <v-flex xs12 sm6 offset-sm3>
           <v-card class="mx-auto" max-width="400">
