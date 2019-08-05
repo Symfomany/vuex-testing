@@ -1,8 +1,8 @@
 
 <template>
-  <div>
+  <div style="background-color: red; font-size-21px">
     <h1 style="color: blue; font-size: 21px">Hello Man</h1>
-    <p>Coucu</p>
+    <p style="color: red">Coucu</p>
   </div>
 </template>
 
