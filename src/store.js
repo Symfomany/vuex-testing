@@ -5,13 +5,13 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    nb: 8,
+    nb: 2,
     books: [],
-    message: ""
+    message: "Je suis le message"
   },
   getters: {
-    getPos(state){
-      return state.nb >= 0
+    getPos(state) {
+      return state.nb >= 0;
     },
     getNb(state) {
       return state.nb;
@@ -21,8 +21,8 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    testMutation(state,message) {
-      state.message = message
+    testMutation(state, message) {
+      state.message = message;
     },
     increase(state) {
       state.nb++;
