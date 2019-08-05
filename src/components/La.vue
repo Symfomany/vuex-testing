@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Je suis le composant enfant</p>
+    <p>Je suis les composants enfants</p>
   </div>
 </template>
 
